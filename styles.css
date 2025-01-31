@@ -1,0 +1,46 @@
+.header {
+    display: flex;
+    flex-direction: column;
+    padding: 0 100px 10px 100px;
+    color: #ddd;
+    background-color: #1f2937;
+}
+
+.fila1 {
+    display: flex;
+    align-items: center;
+    padding-top: 10px;
+}
+
+.logo {
+    height: 60px;
+    width: 90px;
+}
+
+a {
+    text-decoration: none;
+    color: #ddd;
+}
+
+.enlaces_superiores {
+    display: flex;
+    flex: 1;
+    justify-content: right;
+    gap: 10px;
+}
+
+.fila2 {
+    padding: 10px;
+    display: flex;
+    justify-content:space-evenly;
+    width: 100vh;
+    flex-wrap: wrap;
+    
+}
+
+.fila2_izqda {
+    display: flex;
+    flex-direction: column;
+    width: 80vh;
+    padding: 10px;
+}
